@@ -1,0 +1,45 @@
+body{
+    background-color: #F0F2F4;
+    margin: 0;
+}
+
+header{
+    width: 1920;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 18px;
+    box-shadow: rgba(204, 204, 204, 0.8) 0px 1px 1px 0px;
+
+    > p{
+        height: 50px;
+        margin-top: 48px;
+    }
+}
+
+img{
+    margin: auto 0;
+}
+
+p:hover {
+    color: rgb(0, 103, 188);
+}
+
+#home {
+    border-bottom: 3px solid rgb(0, 103, 188);
+    color: rgb(0, 103, 188);
+}
+
+#logo{
+    width: 120px;
+    height: 30px;
+}
+
+#notice{
+    margin-left: 150px;
+    width: 21px;
+    height: 21px;
+}
