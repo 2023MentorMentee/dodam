@@ -1,0 +1,306 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F0F2F4;
+    margin: 0;
+    /*width: 100vw;*/
+}
+
+header{
+    margin-bottom: 1rem;
+
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 18px;
+    box-shadow: rgba(204, 204, 204, 0.8) 0px 1px 1px 0px;
+
+    > p{
+        height: 50px;
+        margin-top: 48px;
+    }
+    >p:hover {
+        color: rgb(0, 103, 188);
+    }
+
+}
+
+img{
+    margin: auto 0;
+}
+
+
+#home {
+    border-bottom: 3px solid rgb(0, 103, 188);
+    color: rgb(0, 103, 188);
+}
+
+#logo{
+    width: 120px;
+    height: 30px;
+}
+
+#notice{
+    margin-left: 150px;
+    width: 21px;
+    height: 21px;
+}
+
+
+/*-------------------------------------------------------------------*/
+
+.ContentLayout{
+    padding-top: 3.25rem;
+
+    width: 1200px;
+    margin: auto;
+}
+
+.TopLayout{
+    display: flex;
+}
+
+.FirstRow{
+    display: flex;
+    justify-content: space-between;
+
+    width: 48.46156rem;
+}
+
+.PlanBox{
+    width: 16.375rem;
+    height: 18.4375rem;    
+    
+    background-color: #ffffff;
+
+    > div{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    >hr{
+        width: 80%;
+        background: #B6B6B6;
+    }
+    >p{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: #B0ADAD;
+        font-size: 0.9375rem;
+        font-weight: 300;
+    }
+}
+
+.ApplyBox{
+    width: 31.1875rem;
+    height: 18.4375rem;
+    background: #FFF;
+}
+
+#ApplySelectBox{
+    margin-top: 1rem;
+
+    display: flex;
+
+    >p{
+        margin-left: 3.3rem;
+        margin-right: 11rem;
+
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    >ul{
+        flex: 1;
+        padding: 0;
+
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    
+        >li{
+            color: #DAD7D7;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+
+}
+
+.ApplyForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-size: 0.83875rem;
+    font-weight: 400;
+
+    >input{
+        border: solid 1px #C2C2C2;
+        width: 18.31288rem;
+        height: 3.86763rem;
+    }
+    >button{
+        width: 6.33725rem;
+        height: 1.9105rem;
+        background-color: #1174CE;
+        border: none;
+
+        color: #FFF;
+        font-size: 0.74556rem;
+        font-weight: 500;
+
+        margin-top: 0.8rem;
+        margin-left: 23rem;
+    }
+}
+
+.ApplyDateBox{
+    display: flex;
+    align-items: center;
+
+    >input{
+        margin-left: 0.7rem;
+
+        width: 13.6875rem;
+        height: 2rem;
+        border: none;
+        border-bottom: solid 1px #000;
+    }
+}
+
+.ApplyTimeBox{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    #OutTimeLabel{
+        margin-right: 0.7rem;
+    }
+
+    #SwungDashLabel{
+        margin: 0 0.5rem;
+    }
+
+    >div{
+        display: flex;
+        align-items: center;
+        border: 1px solid rgb(210, 210, 210);
+        width: 5.77813rem;
+        height: 1.86388rem;
+
+        >input{
+            border: none;
+            width: 100%;
+        }
+    }
+}
+
+
+.BannerBox{
+    margin-top: 1.25rem;
+
+    width: 48.46156rem;
+    height: 6.24406rem;
+    background-color: #fff;
+}
+
+.MyInfoBox{
+    margin-left: 1.25rem;
+
+    width: 22.0625rem;
+    height: 25.625rem;
+    background: #FFF;
+}
+
+.ThirdRow{
+    margin-top: 1.25rem;
+
+    display: flex;
+}
+
+.AlarmSongBox{
+    width: 16.40238rem;
+    height: 18.63906rem;    
+    background-color: #fff;
+}
+
+.SchoolMealBox{
+    margin-left: 1.25rem;
+
+    width: 30.625rem;
+    height: 18.625rem;
+    background-color: #fff;
+}
+
+.MyPointBox{
+    margin-left: 1.25rem;
+
+    width: 22.0625rem;
+    height: 8.25rem;
+    background-color: #fff;
+}
+
+#FestivalBannerBox{
+    margin-top: 2.69rem;
+    padding-left: 5.3rem;
+
+    width: 71.52738rem;
+    height: 6.33725rem;
+    background: #1174CE;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFF;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.WholeFestivalLayout{
+    margin-top: 1.9rem;
+
+    width: 71.4375rem;
+    height: 32.375rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FestivalRow{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#festival_img{
+    width: 13.23375rem;
+    height: 8.06138rem;
+    background: #1DE987;
+}
+
+#festival_label{
+    width: 13.25rem;
+    height: 7.625rem;
+    background: #FFF;
+}
+
+footer{
+    margin-top: 1.9rem;
+
+    width: 100%;
+    height: 18.07988rem;
+    background: #20272D;
+}
